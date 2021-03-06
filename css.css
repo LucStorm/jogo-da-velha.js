@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+*{
+    font-family: 'RocknRoll One', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1
+{
+  padding: 10px;
+  margin: auto;
+  border: 2px solid black;
+  border-radius: 8px;
+  width: 300px;
+  text-align: center;
+  margin-top: 30px;
+  background-color: rgb(255, 217, 0);
+  color: #000000;
+}
+#vezdojogador{ 
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    height: 60px;
+   
+    
+    
+}
+.espaço{
+    width: 100px;
+    height: 80px;
+
+    float: left;
+    text-align: center;
+    padding-top: 20px;
+}
+.tabuleiro{
+    width: 402px;
+    margin: auto;
+    margin-left: 42%;
+}
+
+img{
+    width: 60px;
+}
+
+div#a1{
+    border-bottom: 4px solid #000;
+    border-right: 4px solid #000;
+
+}
+div#a2{
+    border-bottom: 4px solid #000;
+    border-right: 4px solid #000;
+
+}
+div#a3{
+    border-bottom: 4px solid #000;
+
+}
+div#b1{
+    border-bottom: 4px solid #000;
+    border-right: 4px solid #000;
+
+}
+div#b2{
+    border-bottom:4px solid #000;
+    border-right: 4px solid #000;
+}
+div#b3{
+    border-bottom: 4px solid #000;
+
+}
+div#c1{
+    border-right: 4px solid #000;
+
+}
+div#c2{
+    border-right: 4px solid #000;
+
+}
+
+#btn {
+    background-color: #004cd2 ;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    margin-top: 22rem;
+    margin-left: 66px;
+    border: 1px solid black;
+}
+
+#btn:hover{
+    background-color: rgb(67, 117, 255);
+}  
+
+
+
+#btn1 {
+    background-color: rgb(255, 0, 0) ;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    margin-top: 22rem;
+    margin-left: 66px;
+    border: 1px solid black;}
+    #btn1:hover{
+        background-color: #ff5252;
+    }
